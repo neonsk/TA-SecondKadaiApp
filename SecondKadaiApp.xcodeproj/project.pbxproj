@@ -14,6 +14,7 @@
 		D6244BC9214E9362003F9973 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6244BC7214E9362003F9973 /* LaunchScreen.storyboard */; };
 		D6244BD4214E9362003F9973 /* SecondKadaiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6244BD3214E9362003F9973 /* SecondKadaiAppTests.swift */; };
 		D6244BDF214E9362003F9973 /* SecondKadaiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6244BDE214E9362003F9973 /* SecondKadaiAppUITests.swift */; };
+		D6244BED214E964D003F9973 /* RusultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6244BEC214E964D003F9973 /* RusultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D6244BDA214E9362003F9973 /* SecondKadaiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondKadaiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6244BDE214E9362003F9973 /* SecondKadaiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondKadaiAppUITests.swift; sourceTree = "<group>"; };
 		D6244BE0214E9362003F9973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6244BEC214E964D003F9973 /* RusultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RusultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				D6244BC5214E9362003F9973 /* Assets.xcassets */,
 				D6244BC7214E9362003F9973 /* LaunchScreen.storyboard */,
 				D6244BCA214E9362003F9973 /* Info.plist */,
+				D6244BEC214E964D003F9973 /* RusultViewController.swift */,
 			);
 			path = SecondKadaiApp;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6244BED214E964D003F9973 /* RusultViewController.swift in Sources */,
 				D6244BC1214E9361003F9973 /* ViewController.swift in Sources */,
 				D6244BBF214E9361003F9973 /* AppDelegate.swift in Sources */,
 			);
