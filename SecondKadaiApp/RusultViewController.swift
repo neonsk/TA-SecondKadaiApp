@@ -16,7 +16,7 @@ class RusultViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.label.text = "こんにちは、\(x) さん"
+        self.label.text = "こんにちは、" + x + " さん"
         
         // Do any additional setup after loading the view.
     }

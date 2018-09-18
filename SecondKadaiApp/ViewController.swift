@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var labelAlert: UILabel!
     @IBOutlet weak var name: UITextField!
     
     override func viewDidLoad() {
@@ -23,12 +25,13 @@ class ViewController: UIViewController {
     }
     
     override func prepare (for segue: UIStoryboardSegue, sender: Any?){
-        let resultViewController : RusultViewController = segue.destination as! RusultViewController
-        resultViewController.x = self.name.text!
-        
+            let resultViewController : RusultViewController = segue.destination as! RusultViewController
+            resultViewController.x = name.text!
     }
     @IBAction func unwind(_ segue: UIStoryboardSegue) {
         // 他の画面から segue を使って戻ってきた時に呼ばれる
+        self.label.text = "名前を入力してください"
+        self.name.text = ""
     }
 }
 
